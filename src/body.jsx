@@ -27,7 +27,7 @@ const Body = () => {
                 <Col className='text-center text-sm-start mt-lg-5  pb-3 pb-sm-1'  xs={12} >
                  <p> Get your team in sync,no matter your location.
                     Streamline processes,create team rituals,and
-                    watch productivity soar.</p>
+                    watch productivity soar!.</p>
                 </Col>
                 <Col className='text-center text-sm-start mt-lg-5 mb-3'>
                   <Button  className='btn btn-dark py-2 px-4 large' >Learn more</Button>
