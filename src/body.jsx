@@ -11,7 +11,6 @@ import maker from './images/client-maker.svg'
 import meet from './images/client-meet.svg'
 
 import Button from 'react-bootstrap/esm/Button';
-import Stack from 'react-bootstrap/Stack';
 import './index.css'
 import mobile from './images/image-hero-mobile.png'
 
