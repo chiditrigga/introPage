@@ -46,7 +46,9 @@ p{
 }
 } 
     
-
+.dropdown-toggle:hover .dropdown-item{
+    display: block !important;
+}
 
 
 

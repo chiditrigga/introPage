@@ -19,10 +19,12 @@ import Image from 'react-bootstrap/Image';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
+import Body from './body';
 
 function CollapsibleExample() {
   return (
     <>
+  
     {[ 'md'].map((expand) => (
       <Navbar key={expand} expand={expand} className="  py-3 grey">
         <Container fluid>
@@ -42,8 +44,9 @@ function CollapsibleExample() {
             <Offcanvas.Body >
             <Nav className="justify-content-end grey">
               <div className="ddd">
+                <div className="work">
             <NavDropdown  
-                    title="Features"
+                    title="Features" 
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
                   
@@ -61,6 +64,7 @@ function CollapsibleExample() {
                 
                   
                   </NavDropdown>
+                  </div>
                   </div>
                   
                   <NavDropdown 
